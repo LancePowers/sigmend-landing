@@ -19,6 +19,9 @@ p {
 p.small {
   font-size: 16px;
 }
+p.extra-small{
+  font-size: 12px;
+}
 a,
 a:hover,
 a:focus,
@@ -265,7 +268,8 @@ section.success {
 .floating-label-form-group {
   position: relative;
   margin-bottom: 0;
-  padding-bottom: 0.5em;
+  padding-bottom: 0em;
+  padding-top: 0em;
   border-bottom: 1px solid #eeeeee;
 }
 .floating-label-form-group input,
@@ -276,7 +280,7 @@ section.success {
   padding-left: 0;
   border: none;
   border-radius: 0;
-  font-size: 1.5em;
+  font-size: 1em;
   background: none;
   box-shadow: none !important;
   resize: none;
@@ -613,4 +617,8 @@ span.small{
 }
 #about img{
   max-width: 150px;
+}
+#contact li{
+  text-align: left;
+  padding-bottom: 10px;
 }
